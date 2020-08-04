@@ -1,0 +1,35 @@
+{
+  "name": "videolink",
+  "widgetName": "VideoLink",
+  "version": "1.0.0",
+  "description": "My widget description",
+  "copyright": "tbn2020",
+  "author": "qntbkk",
+  "config": {
+    "widgetPath": "./dist/MxTestProject/widgets",
+    "projectPath": "./dist/MxTestProject/"
+  },
+  "packagePath": "tbn",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "pluggable-widgets-tools build:native",
+    "dev": "pluggable-widgets-tools start:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:native"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qntbkk/videolink/issues"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.10.1"
+  },
+  "dependencies": {
+    "react-native-webview": "^10.3.3",
+    "react-native-youtube": "^2.0.1",
+    "react-native-youtube-iframe": "^1.2.4",
+    "react-youtube": "^7.11.3"
+  }
+}

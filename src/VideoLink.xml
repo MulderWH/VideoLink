@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="tbn.videolink.VideoLink" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Video Link</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="yourEmbedCode" type="attribute" required="true">
+                <caption>EmbedCode</caption>
+                <description>Please enter Embed Code</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="yourWidth" type="attribute" required="true">
+                <caption>Iframe Width(number)</caption>
+                <description>Please enter Iframe in format Integer</description>
+                <attributeTypes>
+                    <attributeType name="Integer"/>
+                </attributeTypes>
+            </property>
+            <property key="yourHeight" type="attribute" required="true">
+                <caption>Iframe Height(number)</caption>
+                <description>Please enter Iframe in format Integer</description>
+                <attributeTypes>
+                    <attributeType name="Integer"/>
+                </attributeTypes>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
